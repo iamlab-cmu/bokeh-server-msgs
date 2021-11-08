@@ -1,4 +1,5 @@
 uint8 response_type
+bool request_next_image
 string[] object_names
 sensor_msgs/Image masks
 float64[] dmp_params
