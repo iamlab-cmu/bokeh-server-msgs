@@ -1,4 +1,6 @@
 uint8 response_type
+uint8 query_type
+uint8 query_response
 bool request_next_image
 string[] object_names
 sensor_msgs/Image masks
