@@ -1,9 +1,10 @@
 uint8 response_type
-uint8 query_type
-uint8 query_response
 bool request_next_image
 string[] object_names
 sensor_msgs/Image masks
 iam_common_msgs/DMPParams dmp_params
 iam_common_msgs/Int32Point2D[] desired_positions
 iam_common_msgs/BBox[] bounding_boxes
+uint8 query_type
+uint8 query_response
+iam_common_msgs/Float64Point2D query_point

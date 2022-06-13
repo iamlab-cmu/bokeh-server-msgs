@@ -2,5 +2,5 @@ uint8 query_type
 float64 pizza_diameter
 float64 crust_thickness
 float64 topping_diameter
-iam_common_msgs/Int32Point2D[] pizza_topping_positions_1
-iam_common_msgs/Int32Point2D[] pizza_topping_positions_2
+iam_common_msgs/Float64Point2D[] pizza_topping_positions_1
+iam_common_msgs/Float64Point2D[] pizza_topping_positions_2
